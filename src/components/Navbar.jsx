@@ -18,11 +18,6 @@ function Navbar() {
     }
   };
 
-  // to fix the problem with the button on reloading, this is a hook for the button
-  /*useEffect(()=>{
-    showButton()
-  },[]);*/
-
   window.addEventListener('resize', showButton)
 
   return (

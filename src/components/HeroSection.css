@@ -9,7 +9,7 @@ video {
   .hero-container {
   /*bellow line is if you want to include an image
     background: url('/public/images/img-home.jpg') center center/cover no-repeat;*/
-    background: url('/Users/chathilaratnatilake/Documents/GitHub/Personal-Website/public/images/background.png') center center/cover no-repeat;
+    background: url('/public/images/background-B.jpg') center center/cover no-repeat;
     height: 100vh;
     width: 100%;
     display: flex;

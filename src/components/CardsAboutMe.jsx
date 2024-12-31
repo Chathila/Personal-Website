@@ -5,13 +5,29 @@ import CardItem from './CardItem';
 function CardsAboutMe() {
   return (
     <div className='cards'>
-      <h1>This is ME!</h1>
       <div className='cards__container'>
+        <h1>Hey! I am Chathila</h1>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/me.jpg'
-              text='I am a motivated and driven student from Sri Lanka pursuing my passion for engineering in Canada at the University of Alberta. I believe I am a hard-working and enthusiastic individual constantly looking for opportunities to develop my professional skills and graduate attributes via internships and other various activities. Currently, most of my interests revolve around the Autonomous Automotive industry and Modern technological Advancements. As a second-year Software Engineering student at the University of Alberta, I am actively seeking a 4-month co-op internship starting in May 2023. I am also an avid enthusiast of cars and have a love for motor racing, particularly Formula 1.'
+              src='images/me-2.png'
+              text='As a fourth-year Software Engineering student at the University of Alberta,
+                    I am passionate about solving complex problems and using technology to make 
+                    a meaningful impact. My journey began with a love for mathematics, where I 
+                    found satisfaction in tackling challenges through critical thinking. 
+                    This passion evolved into software engineering, where I bring adaptability, 
+                    a thirst for learning, and a dedication to mastering new technologies.'
+              text2='Growing up in Sri Lanka and transitioning to life in Canada has shaped my 
+                    resilience and responsibility while broadening my perspective on innovation. 
+                    I am particularly fascinated by the role of software in automotive engineering, 
+                    from enhancing safety to unlocking speed and efficiency. My internship at Resolver 
+                    further ignited my drive to use software for positive change, especially through an 
+                    accessibility project inspired by the curb cut effect. It showed me that thoughtful 
+                    engineering can help everyone, creating solutions that are inclusive and impactful.'
+              text3='I am currently in a phase of exploration, building my knowledge across various software 
+                    development domains. My goal is to grow as a well-rounded software 
+                    engineer, contributing to innovative projects that align with my goals 
+                    and advancing technology.'
               label='About Me'
               
             />

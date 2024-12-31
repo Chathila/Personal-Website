@@ -24,9 +24,6 @@ function Navbar() {
     
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to = '/' className='navbar-logo'>
-            Chathila's Website<i className='fab fa-typo3' onClick={Closemobilemenu}/>
-          </Link>
           <div className='menu-icon' onClick={handleMenuClick}>
             <i className={ menuOpen? 'fas fa-times':'fas fa-bars'}/>
           </div>
